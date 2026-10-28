@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- A: ＄入りマイク。既存ウィジェット(widget_microphone.xml)のマイク線画と＄を拡大して流用。不透明1024角、角丸なし。 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="dollar-rainbow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8198"/>
+      <stop offset=".18" stop-color="#ffc46d"/>
+      <stop offset=".36" stop-color="#f1ed87"/>
+      <stop offset=".54" stop-color="#7fe4b2"/>
+      <stop offset=".72" stop-color="#83d6ff"/>
+      <stop offset="1" stop-color="#c9a2ff"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f4f3d"/>
+      <stop offset="1" stop-color="#143a2d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <path d="M358 336 V248 L512 320 L666 248 V336" fill="none" stroke="#B1E6D0" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(336 318) scale(11)" fill="none" stroke="#B1E6D0" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="3" d="M16,2 C11,2 7,6 7,11 L7,19 C7,24 11,28 16,28 C21,28 25,24 25,19 L25,11 C25,6 21,2 16,2 Z M2,18 L2,20 C2,28 8,34 16,34 C24,34 30,28 30,20 L30,18 M16,34 L16,39 M10,39 L22,39"/>
+    <path stroke="url(#dollar-rainbow)" stroke-width="2.2" d="M20,10 C18,7 12,8 12,12 C12,16 20,14 20,19 C20,23 14,24 12,20 M16,6 L16,25"/>
+  </g>
+</svg>

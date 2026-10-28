@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>プライバシーポリシー｜MonoA（モノア）</title>
+<meta name="description" content="MonoA（モノア）が扱う情報、音声・写真・広告・購入の扱い、データの削除方法。">
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<style>
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}body{margin:0;font-family:"Hiragino Sans","Yu Gothic UI","Meiryo",system-ui,sans-serif;line-height:1.8;color:#16352a;background:#f2fbf6}
+a{color:#0b6b4a}a:focus-visible{outline:3px solid #0b6b4a;outline-offset:2px}
+header{background:#0f3d2e;color:#eafff4}.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+.hd{display:flex;align-items:center;gap:16px;padding:24px 20px 20px}.hd img{width:64px;height:64px;border-radius:14px;flex:none}
+.hd .t{font-size:1.5rem;font-weight:bold;line-height:1.3;margin:0}.hd p{margin:2px 0 0;color:#b9ecd2;font-size:.95rem}
+nav{border-top:1px solid #2a6a52}nav .wrap{display:flex;flex-wrap:wrap;gap:4px 20px;padding-top:8px;padding-bottom:8px}nav a{color:#eafff4;padding:4px 0}
+main{padding:28px 0 40px}section{background:#fff;border:1px solid #cfeadb;border-radius:14px;padding:20px 22px;margin:0 0 18px}
+h1{margin:0 0 6px;font-size:1.4rem;color:#0f3d2e}h2{margin:0 0 8px;font-size:1.2rem;color:#0f3d2e;border-left:6px solid #5fd3a2;padding-left:10px}h3{margin:16px 0 4px;font-size:1.02rem;color:#0f3d2e}
+p{margin:.5em 0}ul{margin:.4em 0;padding-left:1.4em}li{margin:.25em 0}
+.badge{display:inline-block;background:#d9f7e8;color:#0b6b4a;border-radius:999px;padding:2px 12px;font-size:.88rem;font-weight:bold}
+.note{font-size:.92rem;color:#3f5d51}footer{background:#0f3d2e;color:#b9ecd2;padding:20px 0;font-size:.9rem}footer a{color:#eafff4}
+@media(min-width:820px){.wrap{max-width:860px}h1{font-size:1.6rem}h2{font-size:1.3rem}.hd .t{font-size:1.8rem}}
+@media(min-width:1280px){.wrap{max-width:920px}body{font-size:1.05rem}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap hd"><img src="icon.svg" alt="MonoAのアイコン（マイクとドル記号）"><div><p class="t">MonoA（モノア）</p><p>買ったら話して記録する家計簿</p></div></div>
+<nav aria-label="ページ"><div class="wrap"><a href="index.html">サポート</a><a href="privacy-policy.html">プライバシーポリシー</a><a href="mailto:una.catena.della.morte@gmail.com">お問い合わせ</a></div></nav>
+</header>
+<main><div class="wrap">
+<section>
+<h1>プライバシーポリシー</h1>
+<p class="note">最終更新：2026年10月28日 ／ 開発者：Ryo.I ／ 対象：MonoA（モノア）。アプリは公開準備中です。</p>
+<p>MonoAは、記録の保存を端末の中で行う家計簿アプリです。ただし、音声認識・広告・購入の確認では、外部のサービスが情報を処理することがあります。以下に、確認できている範囲で正直に書きます。</p>
+</section>
+<section id="records">
+<h2>1. 記録のデータ</h2>
+<p>取引の金額・日付・カテゴリ・内容・タグ・支払い方法は、お使いの端末のアプリ内データベース（SQLite）に保存します。開発者のサーバーへ自動で送信することはありません。記録のためのアカウント作成も不要です。</p>
+<p>設定の「取引をCSVへ書き出す」を使うと、あなたが選んだ保存先にCSVを作れます。そのファイルの管理はあなたになります。</p>
+<p>Androidでは、アプリの自動バックアップ（allowBackup）を無効にしています。iPhone／iPadのOSのバックアップに、アプリのデータが含まれるかどうかは確認できていないため、ここでは断定しません。</p>
+</section>
+<section id="voice">
+<h2>2. 音声</h2>
+<ul>
+<li>マイクは、あなたが「録音する」を押して音声認識を開始したときだけ使います。認識の終了・中断、画面を閉じたときに使用を停止します。</li>
+<li>端末内で音声認識できる場合は、端末内の認識を優先して使います。</li>
+<li>端末内で使えない場合は、確認の画面を出し、あなたが「使う」を選んだときだけ、OSの音声認識サービス（iPhoneはApple、Androidは端末の認識サービス）へ音声が送られることがあります。送られた音声は、各社の規約・ポリシーに従って扱われます。</li>
+<li>録音データを、MonoAの記録ファイルとして保存しません。認識された文章を下書きとして表示し、あなたが確認して保存したものだけが記録になります。</li>
+<li>音声認識が使えること、認識が正確であることは保証できません。</li>
+</ul>
+</section>
+<section id="photo">
+<h2>3. 背景の写真</h2>
+<p>設定で、あなたが選んだ写真を1枚だけ背景に使えます。選んだ写真は、アプリ専用の領域に表示用のコピーとして処理して保存します。元の写真は変更しません。写真フォルダ全体を自動で取得・送信することはありません。</p>
+</section>
+<section id="ads">
+<h2>4. 広告（Google AdMob）</h2>
+<p>無料の間は、Google AdMobのバナー広告を表示します。現在は、非パーソナライズ広告として要求しています。iOSの「トラッキングの許可（ATT）」は要求していません。</p>
+<p>ただし、Googleの広告SDKは、広告の配信・不正の防止・不具合の診断のために、端末の情報、広告への操作、診断の情報などを処理することがあります。「一切収集しない」「完全にオフライン」とは言えません。地域によっては、同意の画面や広告のプライバシー設定が表示されることがあります。詳しくはGoogleのポリシーをご覧ください。</p>
+<p>買い切りの「広告を削除」を購入すると、広告は表示されなくなります。詳しくは<a href="https://policies.google.com/privacy?hl=ja" rel="noopener noreferrer">Googleのプライバシーポリシー</a>をご覧ください。</p>
+</section>
+<section id="purchase">
+<h2>5. 購入（RevenueCat）</h2>
+<p>「広告を削除」の購入・復元と、広告を消す権利の確認のため、アプリ内課金の管理サービスRevenueCatを使い、App StoreまたはGoogle Playの購入情報を確認します。このとき、匿名のアプリ利用者ID、購入や所有の情報などが処理されます。</p>
+<p>クレジットカード番号などの決済情報を、開発者が直接取得することはありません。支払いはApp StoreまたはGoogle Playで行われます。詳しくは<a href="https://www.revenuecat.com/privacy" rel="noopener noreferrer">RevenueCatのプライバシーポリシー（英語）</a>をご覧ください。</p>
+</section>
+<section id="not">
+<h2>6. 求めない情報</h2>
+<p>位置情報、連絡先、銀行口座へのアクセスは、MonoAの機能では求めません。このサポートページにも、外部の解析ツールやトラッカーは入れていません。</p>
+</section>
+<section id="delete">
+<h2>7. データの削除</h2>
+<p>現在のアプリに「全データを削除する」ボタンはありません。記録を消したいときは、次の方法があります。</p>
+<ul>
+<li><strong>Android：</strong>アプリをアンインストールするか、端末の設定の「アプリ」→「MonoA」→「ストレージ」からデータを削除します。</li>
+<li><strong>iPhone／iPad：</strong>「Appを削除」すると、アプリ内のデータも消えます。ホーム画面から「Appを取り除く」だけではデータが残ります。</li>
+<li>背景の写真は、設定から解除できます。</li>
+</ul>
+<p>これらの操作で消えるのは端末内のデータです。書き出し済みのCSV、OSの音声認識サービス、AdMob、RevenueCat、App Store／Google Playに残る情報は別です。購入の履歴はストア側に残り、アプリを消しても、同じストアのアカウントなら「購入を復元」で広告の削除を再び有効にできます。</p>
+</section>
+<section id="change">
+<h2>8. 変更とお問い合わせ</h2>
+<p>アプリの機能が変わったときは、このページを更新します。お問い合わせは <a href="mailto:una.catena.della.morte@gmail.com">una.catena.della.morte@gmail.com</a>（開発者：Ryo.I）へお願いします。</p>
+<p><a href="index.html">サポートページへ戻る</a></p>
+</section>
+</div></main>
+<footer><div class="wrap">© Ryo.I ／ <a href="index.html">サポート</a> ・ <a href="privacy-policy.html">プライバシーポリシー</a> ・ <a href="mailto:una.catena.della.morte@gmail.com">una.catena.della.morte@gmail.com</a></div></footer>
+</body>
+</html>
